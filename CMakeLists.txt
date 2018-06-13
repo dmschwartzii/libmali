@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.2)
 PROJECT(libmali NONE)
 
-set(TARGET_SOC "rk3399" CACHE INTERNAL "Default target SoC")
+set(TARGET_SOC "rk3388" CACHE INTERNAL "Default target SoC")
 set(DP_FEATURE "wayland" CACHE INTERNAL "Default target display system")
 set(TARGET_LIB_NAME "libMali.so" CACHE INTERNAL "Default library name")
 message(STATUS "Target SoC: ${TARGET_SOC}")
